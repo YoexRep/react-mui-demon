@@ -1,5 +1,6 @@
 import { Stack, Button, IconButton, ButtonGroup, ToggleButtonGroup, ToggleButton} from "@mui/material";
 import SendIcon from '@mui/icons-material/Send';
+import BeachAccessIcon from '@mui/icons-material/BeachAccess';
 
 import FormatBoldIcon from '@mui/icons-material/FormatBold';
 import FormatItalicIcon from '@mui/icons-material/FormatItalic';
@@ -26,8 +27,8 @@ export const MuiButton = () => {
         <Button variant="text" href="https://google.com">
           texto
         </Button>
-        <Button variant="contained">Contained</Button>
-        <Button variant="outlined">Outlined</Button>
+        <Button variant="contained">Contained este</Button>
+        <Button variant="outlined">Outlined este otro</Button>
       </Stack>
 
         {/*Color Button */}
@@ -76,6 +77,9 @@ export const MuiButton = () => {
 
         <Button variant="contained" startIcon={<SendIcon/> } disableRipple onClick={()=> alert('Hola mundo')}>SEND</Button>
         <Button variant="contained" endIcon={<SendIcon/>} disableElevation>SEND</Button>
+        <Button variant="contained" startIcon={<BeachAccessIcon/>} disableElevation>Beach</Button>
+
+        
 
         <IconButton aria-label="send" color='success' size='large'>
             <SendIcon></SendIcon>
