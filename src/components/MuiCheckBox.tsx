@@ -17,19 +17,32 @@ export const MuiCheckBox = () => {
 
     const [skills, setSkills] = useState<string[]>([])
 
+    console.log({skills})
+
     const handleSkillChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         
         const index = skills.indexOf(event.target.value)
 
+   
+
         if(index === -1 ){
             setSkills([...skills, event.target.value])
+               
+         
+          
         }else{
             setSkills(skills.filter((skill)=> skill !== event.target.value))
+           
+           
         }
+
+        
     }
 
 
-    console.log({skills})
+    
+
+    
 
     return (
 
@@ -68,11 +81,11 @@ export const MuiCheckBox = () => {
                 <FormControl>
                     <FormLabel>Skills</FormLabel>
 
-                    <FormGroup>
+                    <FormGroup row>
                         <FormControlLabel
                             label='HTML'
-                            value='html'
-                            control={<Checkbox checked={skills.includes('html')} onChange={handleSkillChange} />}
+                            
+                            control={<Checkbox value='html' checked={skills.includes('html')} onChange={handleSkillChange} />}
                         />
 
                         <FormControlLabel
