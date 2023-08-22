@@ -17,6 +17,7 @@ import { MuiGrid } from './components/MuiGrid';
 import { MuiPaper } from './components/MuiPaper';
 import { MuiCard } from './components/MuiCard';
 import { MuiAccordion } from './components/MuiAccordion';
+import { MuiImageList } from './components/MuiImageList';
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
 
       {/* <MuiPaper/> */}
       {/* <MuiCard/> */}
-      <MuiAccordion/>
+      {/* <MuiAccordion/> */}
+      <MuiImageList/>
     </div>
   );
 }
