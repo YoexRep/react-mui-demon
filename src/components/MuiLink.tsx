@@ -1,7 +1,14 @@
-import { Box } from "@mui/material";
+import {Stack, Link, Typography } from "@mui/material";
 
 export const MuiLink = () => {
-    return (<Box>
+    return (<Stack spacing={2} direction='row' m={4}>
+        <Link href='#'>Link</Link>
+        <Link href='#' color='secondary' underline="hover">Secondary</Link>
         
-    </Box>)
+        <Link href='#' color='secondary' underline="none">None underline</Link>
+
+        <Typography variant="h6"><Link href='#' color='secondary' underline="none">Heredado variant</Link></Typography>
+        
+    
+    </Stack>)
 }
