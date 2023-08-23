@@ -18,6 +18,8 @@ import { MuiPaper } from './components/MuiPaper';
 import { MuiCard } from './components/MuiCard';
 import { MuiAccordion } from './components/MuiAccordion';
 import { MuiImageList } from './components/MuiImageList';
+import { MuiNavBar } from './components/MuiNavBar';
+import { MuiMenu } from './components/MuiMenu';
 
 function App() {
   return (
@@ -42,7 +44,11 @@ function App() {
       {/* <MuiPaper/> */}
       {/* <MuiCard/> */}
       {/* <MuiAccordion/> */}
-      <MuiImageList/>
+      {/* <MuiImageList/> */}
+      {/* <MuiNavBar/> */}
+      <MuiMenu/>
+      
+      
     </div>
   );
 }
