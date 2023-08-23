@@ -20,6 +20,7 @@ import { MuiAccordion } from './components/MuiAccordion';
 import { MuiImageList } from './components/MuiImageList';
 import { MuiNavBar } from './components/MuiNavBar';
 import { MuiMenu } from './components/MuiMenu';
+import { MuiLink } from './components/MuiLink';
 
 function App() {
   return (
@@ -46,7 +47,9 @@ function App() {
       {/* <MuiAccordion/> */}
       {/* <MuiImageList/> */}
       {/* <MuiNavBar/> */}
-      <MuiMenu/>
+      {/* <MuiMenu/> */}
+
+      <MuiLink/>
       
       
     </div>
