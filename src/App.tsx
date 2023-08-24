@@ -23,6 +23,11 @@ import { MuiMenu } from './components/MuiMenu';
 import { MuiLink } from './components/MuiLink';
 import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
 
+import { MuiDrawer } from './components/MuiDrawer';
+import { MuiSpeedDial } from './components/MuiSpeedDial';
+import { MuiBottomNavigation } from './components/MuiBottomNavigation';
+
+
 function App() {
   return (
     <div className="App">
@@ -48,10 +53,16 @@ function App() {
       {/* <MuiAccordion/> */}
       {/* <MuiImageList/> */}
       {/* <MuiNavBar/> */}
-      <MuiMenu/>
+      {/* <MuiMenu/> */}
 
       {/* <MuiLink/> */}
-      <MuiBreadcrumbs/>
+      {/* <MuiBreadcrumbs/> */}
+      {/* <MuiDrawer/> */}
+
+      
+
+      {/* <MuiSpeedDial/> */}
+      <MuiBottomNavigation/>
       
     </div>
   );
