@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+
+
 import { MuiTypography } from './components/MuiTypography';
 
 import { MuiTextField } from './components/MuiTextField';
@@ -27,6 +30,7 @@ import { MuiDrawer } from './components/MuiDrawer';
 import { MuiSpeedDial } from './components/MuiSpeedDial';
 import { MuiBottomNavigation } from './components/MuiBottomNavigation';
 
+import { MuiAvatar } from './components/MuiAvatar';
 
 
 function App() {
@@ -63,7 +67,12 @@ function App() {
       
 
       {/* <MuiSpeedDial/> */}
-      <MuiBottomNavigation/>
+      {/* <MuiBottomNavigation/> */}
+      <MuiAvatar/>
+
+  
+   
+
       
     </div>
   );

@@ -5,9 +5,7 @@ import PersonIcon from "@mui/icons-material/Person";
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 
-import { Home } from './BottomNavigationPage/Home';
-import { Favorities } from './BottomNavigationPage/Favorites';
-import { Profile } from './BottomNavigationPage/Profile';
+
 
 export const MuiBottomNavigation = () => {
 
@@ -46,6 +44,7 @@ export const MuiBottomNavigation = () => {
         icon={<PersonIcon />}      
     />
       
+
          
        
     </BottomNavigation>
