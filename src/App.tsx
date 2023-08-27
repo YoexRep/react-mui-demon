@@ -33,6 +33,12 @@ import { MuiBottomNavigation } from './components/MuiBottomNavigation';
 import { MuiAvatar } from './components/MuiAvatar';
 import { MuiBadge } from './components/MuiBadge';
 import { MuiList } from './components/MuiList';
+import { MuiChip } from './components/MuiChip';
+import { MuiToolTip } from './components/MuiToolTip';
+import { MuiTable } from './components/MuiTable';
+import { MuiAlert } from './components/MuiAlert';
+
+
 
 function App() {
   return (
@@ -72,8 +78,13 @@ function App() {
       {/* <MuiAvatar/> */}
      {/* < MuiBadge/> */}
   
-   <MuiList/>
+   {/* <MuiList/> */}
+   {/* <MuiChip/> */}
+   {/* <MuiToolTip/> */}
 
+  {/* < MuiTable/> */}
+
+  <MuiAlert/>
       
     </div>
   );
