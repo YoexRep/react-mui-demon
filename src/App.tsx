@@ -43,10 +43,15 @@ import { MuiDialog } from './components/MuiDialog';
 import { MuiProgress } from './components/MuiProgress';
 import { MuiSkeleton } from './components/MuiSkeleton';
 import { MuiLoadingButton } from './components/MuiLoadingButton';
+import { MuiTabs } from './components/MuiTabs';
+
 
 function App() {
   return (
+
+    // <LocalizationProvider dateAdapter={AdapterDayjs}>
     <div className="App">
+         
         {/*  <MuiTypography/>*/}
       {/* <MuiButton/> */}
       {/* <MuiTextField/> */}
@@ -96,8 +101,13 @@ function App() {
 
 
 {/* <MuiSkeleton/> */}
-<MuiLoadingButton/>
+{/* <MuiLoadingButton/> */}
+
+<MuiTabs/>
+
     </div>
+    // </LocalizationProvider>
+   
   );
 }
 
