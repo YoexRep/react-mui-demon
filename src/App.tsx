@@ -44,6 +44,7 @@ import { MuiProgress } from './components/MuiProgress';
 import { MuiSkeleton } from './components/MuiSkeleton';
 import { MuiLoadingButton } from './components/MuiLoadingButton';
 import { MuiTabs } from './components/MuiTabs';
+import { MuiTimeline } from './components/MuiTimeline';
 
 
 function App() {
@@ -103,7 +104,8 @@ function App() {
 {/* <MuiSkeleton/> */}
 {/* <MuiLoadingButton/> */}
 
-<MuiTabs/>
+{/* <MuiTabs/> */}
+<MuiTimeline/>
 
     </div>
     // </LocalizationProvider>

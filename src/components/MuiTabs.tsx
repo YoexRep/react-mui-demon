@@ -10,7 +10,7 @@ export const MuiTabs = () => {
     setValue(newValue)
   }
   return (
-    <Box sx={{ width: '300px' }}>
+    <Box sx={{ width: '400px' }}>
       <TabContext value={value}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <TabList
