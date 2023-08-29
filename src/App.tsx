@@ -48,10 +48,34 @@ import { MuiTimeline } from './components/MuiTimeline';
 import { MuiMasonry } from './components/MuiMasonry';
 import { MuiResponsiveness } from './components/MuiResponsiveness';
 
+import { MuiCustomizingTheme } from './components/MuiCustomizingTheme';
+
+import { createTheme, colors, ThemeProvider } from '@mui/material';
+
+const themeCustom = createTheme({
+  status:{
+    danger: '#e53e3e',
+  },
+  palette:{
+    secondary:{
+      main: colors.orange[500],
+    },
+    neutral:{
+      main: colors.grey[500],
+      //light:
+      darker: colors.grey[700],
+     // contracttext
+
+    }
+  },
+
+})
+
 function App() {
   return (
 
     // <LocalizationProvider dateAdapter={AdapterDayjs}>
+    <ThemeProvider theme={themeCustom}>
     <div className="App">
          
         {/*  <MuiTypography/>*/}
@@ -109,11 +133,13 @@ function App() {
 {/* <MuiTimeline/> */}
 {/* 
 <MuiMasonry/> */}
-<MuiResponsiveness/>
+{/* <MuiResponsiveness/> */}
+<MuiCustomizingTheme/>
 
     </div>
+    </ThemeProvider>
     // </LocalizationProvider>
-   
+
   );
 }
 
